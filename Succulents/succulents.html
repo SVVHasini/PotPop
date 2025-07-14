@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Indoor Plants</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="succulents.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+   <div class="navbar" id="navbar">
+    <div class="nav-title" style="color:#fff; font-family:'Great Vibes', cursive; font-size: 24px;">Indoor Plant</div>
+    <div class="nav-links" id="navLinks">
+      <a href="./../Homepage/index.html">Home</a>
+      <a href="#about">About</a>
+      <a href="#buy">Buy</a>
+    </div>
+    <a class="icon" onclick="toggleNavbar()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <div class="container">
+    <section id="about">
+        <img class="succulentimg" src="./../images/Succulents.png" alt="succulent Plant">
+    </section>
+    <section>
+        <h2>Know about me</h2>
+        <div id="about">
+            <a href="https://en.wikipedia.org/wiki/Succulent_plant" target="_blank"><img class="Sticker" src="./../Stickers/Succulents.png" alt="Sticker Succulents"></a>
+            <table style="width:50%">
+				<!-- <tr style="height:50px">
+					<td><b><center>SCIENTIFIC NAME</center></b></td>
+					<td><b><center>Crassula ovata</center></b></td>
+				</tr> -->
+				<tr style="height:50px">
+					<td><b><center>NAME</center></b></td>
+					<td><b><center>Succulents</center></b></td>
+				</tr>
+				<tr style="height:50px">
+					<td><b><center>HEIGHT</center></b></td>
+					<td><b><center>3 to 5 feet tall</center></b></td>
+				</tr>
+				<tr style="height:50px">
+					<td><b><center>WIDTH</b></center></td>
+					<td><b><center>1.5 to 3 feet wide</center></b></td>
+				</tr>
+				<tr style="height:50px">
+					<td><b><center>LEAVES COLOR</center></b></td>
+					<td><b><center>Light green, feathery foliage</center></b></td>
+				</tr>
+                <tr style="height:50px">
+					<td><b><center>FLOWERS COLOR</center></b></td>
+					<td><b><center>Small, yellowish-white flowers</center></b></td>
+				</tr>
+			</table>
+        </div>
+    </section>
+    <section>
+        <h2>Botanical Characteristics:</h2>
+        <ul>
+            <li>Succulents are drought-resistant plants that store water in their thick, fleshy leaves, stems, or roots.</li>
+            <li>They often have a waxy coating or spines to reduce water loss.</li>
+            <li>Most succulents thrive in arid or semi-arid climates.</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Varieties:</h2>
+        <ul>
+            <li>Popular types include Aloe Vera, Echeveria, Jade Plant (Crassula ovata), and Sedum.</li>
+            <li>Succulents come in a wide range of colors, sizes, and leaf shapes</li>
+            <li>Some varieties flower seasonally, producing bright, attractive blooms.</li>
+            <!-- <li>9+-
+
+            </li> -->
+        </ul>
+    </section>
+    <section>
+        <h2>Benefits:</h2>
+        <ul>
+            <li>They purify indoor air and release oxygen, improving room quality.</li>
+            <li>Easy to grow and maintain, making them ideal for beginners.</li>
+            <li>Used in decor and landscaping due to their striking appearance.</li>
+            <li>Aloe Vera, a succulent, has medicinal properties (e.g., for burns and skin care).</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Care Instructions:</h2>
+        <ul>
+            <li>Place in bright, indirect sunlight; at least 6 hours of light per day.</li>
+            <li>Water sparingly—only when the soil is completely dry (usually once every 1–2 weeks).</li>
+            <li>Use well-draining soil and pots with drainage holes to prevent root rot.</li>
+            <li>Avoid humidity and overwatering, which can harm the plant.</li>
+        </ul>
+    </section>
+    <!-- <div class="buycont">
+    <section id="buy">
+        <h2>Buy</h2>
+        <h3>Get the plant on:</h3>
+        <ul style="list-style: none; padding-left: 0; display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+            <li>
+                <a href="https://www.amazon.in/Jade-plant-indoor-live-without/dp/B0C1VVCSHT?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A3MBA4Q045B0GX" target="_blank" style="font-size: 30px;">
+                    <i class="fab fa-amazon"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.flipkart.com/greenery-nursery-jade-plant/p/itmbc6c637544ecd?pid=PSGGQTVBWU6Q4HGX&lid=LSTPSGGQTVBWU6Q4HGXGHWVZR&marketplace=FLIPKART&cmpid=content_plant-sapling_8965229628_gmc" target="_blank" style="font-size: 30px;">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.jiomart.com/p/homeandkitchen/cloud-farm-hybrid-jade-plant-200-mm-cf24/602451721?source=shoppingads" target="_blank" style="font-size: 30px;">
+                    <i class="fas fa-store"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://plantorbit.com/products/mini-variegated-jade-bare-rooted?_pos=4&_sid=372687f82&_ss=r" target="_blank" style="font-size: 30px;">
+                    <i class="fas fa-leaf"></i>
+                </a>
+            </li>
+        </ul>
+    </section>
+    </div> -->
+    <section>
+      <div class="under">
+        <div>
+          <div id="rounds">
+            <a href="https://www.amazon.in/Echeveria-imbricata-Blue-Rose-Succulent/dp/B0BBGJ6VCG/ref=sr_1_2_sspa?crid=12O9FCHZZ2LEM&dib=eyJ2IjoiMSJ9.tLhtiPziQMyuU82HjqBCQi0BoqDJFeVEfBl4-POQcHNt8LHdOJNq3VecHYVZMcK8l98A9ekPiGdCeiVWQd8G_YkOBfe7Na-jjfX9ErYsY0b5T3PXbZnR-be8Mp9JGDTQ-QmbAj2af7o7SBCNKaYyeV9G1Txy2TNhdMcQ86zxRi2D2M4QtEiDEB589WwtXEPncTT3aEIbjrCPRSRtcn5dfsxbCei0FWOLtpBJR0d4IKG-LLb2_TrwLsEMqmzNwW4SWFte79XBMictDEWT2UFMWQjjc7FeKhzp1uUR-Vu-meE.dL2tKn1q5KdvGjS5nDKqnTbEvhGeZBJvNqzdC5Pe19M&dib_tag=se&keywords=Echeveria+live&qid=1752427062&sprefix=haworthia+zebra+plant+live%2Caps%2C284&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="./../images/Buy succulents/Echeveria.jpg" alt="Echeveria"></a>
+            <p>Echeveria</p>
+          </div>
+          <div id="rounds">
+            <a href="https://www.amazon.in/UGAOO-Haworthia-Fasciata-Succulent-Plant/dp/B09PF3TMKW/ref=sr_1_4_sspa?crid=37YSYTKW47PYK&dib=eyJ2IjoiMSJ9.srjMr-8nfJQcs5dv5CVYDMPQc9ULXYfGD4sTtwpeFOhCittgVykM8HcXojq4114XQPNEp276Sicw8wNusatsJdx_1f3I5VCeyZJXrDwz0pBXq7fsqvd62o69M6TQpQ68uA9WnWYNCoaVecYE55Wv9E4KPKZhhp-hT7Ik8jHU9tGkJsf473ccEeYmV7evJGfIw4irq8HaEWYEKcNxzm9lqrRivAsK0exGfQFWo9gL0GRjRW5IAt_KELqlYL6PiBHHOtBuobODNhFcqjyrhpq9AtwLizSbMlZ5upPHI5OEsJA.pGt4P5wB8xIqYyFQsaO4Wo4grUKbIV_kLQJCJ2nn9pc&dib_tag=se&keywords=Haworthia%2B(Zebra%2BPlant)%2Blive&nsdOptOutParam=true&qid=1752427026&sprefix=haworthia%2Bzebra%2Bplant%2Blive%2Caps%2C248&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"><img src="./../images/Buy succulents/Haworthia.jpg" alt="Haworthia"></a>
+            <p>Haworthia</p>
+          </div>
+          <div id="rounds">
+            <a href="https://www.amazon.in/Bigreen-Morganianum-Succulent-Beautiful-Maintenance/dp/B0F59X2RVZ/ref=sr_1_3?crid=3NSO37VMT7KDQ&dib=eyJ2IjoiMSJ9.shJgjHtvdRm1isr9U4VTCfBE0BY773sEvj9Y-2onHiR6zh8QTKg1iTI4h2ecqelxCIpfh2MCy1MgsLGTfLCdsUCTf85IjRDY3ozpIM6UrhJBeMAmYqQgX_eW5Xd0XYimZ6RxLj_yWVTCmtryvKmCsDDygiK2yH8cC_bXptxsin1OyBPoRml0u67WAokOz_aJ_LZRXfowEpelKbWSTxHDoltZm6rPCXPLJuImiiWSHvpcfxQeaU_r0YQGVyAy5MLdUCvt1l1bUHRizinGPvlCZ1m9ZLjn4ljXYx_q89vw1Iw.eYZC6yLUyD-97yRZQIZiMu3sa93cnAhX5MoBvK_SYpU&dib_tag=se&keywords=Sedum%2Bmorganianum%2B(Burro%E2%80%99s%2BTail%2B%2F%2BDonkey%2BTail)%2Blive&nsdOptOutParam=true&qid=1752426964&sprefix=sedum%2Bmorganianum%2Bburro%2Bs%2Btail%2B%2F%2Bdonkey%2Btail%2Blive%2Caps%2C231&sr=8-3&th=1"><img src="./../images/Buy succulents/Sedum morganianum.jpg" alt="Sedum Morganianum"></a>
+            <p>Sedum Morganianum</p>
+          </div>
+        </div>
+        <div>
+          <div id="rounds">
+            <a href="https://www.amazon.in/Mphmi-Senecio-rowleyanus-String-Pearls/dp/B096WCD631/ref=sr_1_2_sspa?crid=2FPE8UUKM2L7U&dib=eyJ2IjoiMSJ9.9rY5mvBtmy7sF4SriZVBkZep2YVORbzRVT7eztC0LJPZMoe6zN9Jm_Ka3jSnx1JdCa239JtlRVpWeqeyeelmwHCwA4wWkarjGuel28Lh3K-azqzCM_SHmLDGTOVPAH7_AQ0yxmLoactU43os_YJs7k0Yuar2Ru1ftJDGg531kEZpiaLZqwB8JLiDxKcOtIzkVnNGgyaJyG06cZDW1kOKoghQpWG00uasj_gY0IIWKDK0E-Uixvbv1D5uw8hPnrO4OksPQD91ghu4TQAV8-UhB8T82a2meYkRgMcuLT6exm0.POBLewxMbOdT78RlcE_GeQaJsYF7fU_EdqIuI3myDpw&dib_tag=se&keywords=Senecio+rowleyanus+%28String+of+Pearls%29+live&qid=1752426942&sprefix=senecio+rowleyanus+string+of+pearls+live%2Caps%2C280&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="./../images/Buy succulents/Senecio rowleyanus.jpg" alt="Senecio Rowleyanus"></a>
+            <p>Senecio Rowleyanus</p>
+          </div>
+          <div id="rounds">
+            <a href="https://www.amazon.in/Mphmi-Live-Plants-LITHOPS-CACTUS/dp/B0CX9H3F91/ref=sr_1_1_sspa?crid=2Q49A4IUFL7D6&dib=eyJ2IjoiMSJ9.TKhsL7ydHxWUJ0JDKYAH-UFzz0gKq1BI-KHLGm_C3_0GpRenxppXZZ01eN0lCvhzSyrBPpZtybA_AcnG5t289BgngTqPBGIm1VVFdnoeAbpDQDGa0UfAn1IA9W1QJSttuSHbv2gfeYLIENHHHIDdQQSZt1G0aItOoM1hE-SDeAzt6o9xE3rm5KVSvGHYD_AEja0T5GvvvUdivhDGY8qS0ZSXnEuckwhbF1hYHfk7A7MsM4fGm2AARRdc_6HP5IkpXb9ePwldL4kIadcK9WsrUsh2Ob5KGxfYMhHCrum1oW8.zcsElSACayrtIb0KJKgNI-nKY_be08edXes5CSgHSDY&dib_tag=se&keywords=Lithops+%28Living+Stones%29+live&qid=1752426889&sprefix=lithops+living+stones+live%2Caps%2C281&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="./../images/Buy succulents/Lithops.jpg" alt="Lithops"></a>
+            <p>Lithops</p>
+          </div>
+          <div id="rounds">
+            <a href="https://www.flipkart.com/kpl-graptopetalum-paraguayense-ghost-plant/p/itm7ce7c0a116373?pid=PSGGZ4MXCBGSM2SS&lid=LSTPSGGZ4MXCBGSM2SSC1PS4S&marketplace=FLIPKART&cmpid=content_plant-sapling_8965229628_gmc"><img src="./../images/Buy succulents/Graptopetalum paraguayense.jpg" alt="Graptopetalum Paraguayense"></a>
+            <p>Graptopetalum Paraguayense</p>
+          </div>
+          <div id="rounds">
+            <a href="https://www.amazon.in/Mphmi-Nursery-spurium-Voodoo-Flower/dp/B0C39PDDXR/ref=sr_1_3_sspa?crid=38CTDGAO2P7WZ&dib=eyJ2IjoiMSJ9.lKAXziT81uxXJp9Rw2SiTmkdnKRtuBIz2CwmUUBdJuS-ED7DaKZd7fwsfNK_872u5IAF1ymsUHzPjGL8l6pzFx4skTFyj41VLN0XZ002oNDbZfgvI22QwNW1hEqcXvwo0hyIgJjtnjRIuBgs_rnnQGdqo-8vc2DZrxjpMSXe82VypkhdBvEzvMQJCp6enywPUdTXJTB4zHW2EERxgpqHLnfJPhEAV2pWM1W0lVUTSiBuMurAz-9C0b0r6e5U2idjHX_yVCS8YxXV4AAIuRyabwcSdwqncZi_JKwGJhBIOHA.cLrSHfwELn6yvqJYridmQhtSPvgC-LnX-mrqjTRHoR4&dib_tag=se&keywords=succulent+live&qid=1752426770&sprefix=succulentlive%2Caps%2C230&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="./../images/Buy succulents/Flower Indoor Dragon Live blood.jpg" alt="Flower Indoor Dragon Live blood"></a>
+            <p>Dragon Live blood</p>
+          </div>
+        </div>
+        <div>
+          <div id="rounds">
+            <a href="https://www.flipkart.com/futaba-beautiful-rare-flower-seeds-cactus-succulent-seed/p/itmeg6fzhqhcgnwv?pid=PAEEG6FZM76DZAVY&lid=LSTPAEEG6FZM76DZAVYN7KMNZ&marketplace=FLIPKART&cmpid=content_plant-seed_8965229628_gmc"><img src="./../images/Buy succulents/Aloinopsis schooneesii.jpg" alt="Aloinopsis Schooneesii"></a>
+            <p>Aloinopsis Schooneesii</p>
+          </div>
+          <div id="rounds">
+            <a href="https://www.amazon.in/Generic-Aeonium-Succulent-Plant/dp/B0FGJQQW96/ref=sr_1_18?crid=GMTD0DI2WZVY&dib=eyJ2IjoiMSJ9.ElLuwskbFehzElEAXCWHRclBDVsMZ5JjHd2VxOopTaguMxlieOQknWP_1r84jx_AFhtyEOHwdjShPnwNJvOeWBXcRPAMZk40VvE-n9ZK7a6_5U-aH8jrVkpRSTLTlrOE_uxqrV5yD2AP0BTtK2RQbBWGjupiRHaGWhXQdhDrZPjLNH1tiRHPoFBR5Rn-t1nQsX-E_pgAw8NgCHTvYAbEnmtu7LZ2-IIoLz9x_RJ3lobChQPI8GjX5qBwAcSpVSFKkTJc9hL6h3S8L27rDHnOolZ2D1QNv_Zl8IxjMsey9_Q.8ozpV_klxekCcQPcejbF5m-fNGMGhvEbkI1Ia7tTsXE&dib_tag=se&keywords=Aeonium+arboretum+live+plant&qid=1752429707&sprefix=aeonium+arboretum+live+plant%2Caps%2C261&sr=8-18"><img src="./../images/Buy succulents/Aeonium arboretum.jpg" alt="Aeonium Arboretum"></a>
+            <p>Aeonium Arboretum</p>
+          </div>
+          <div id="rounds">
+            <a href="https://www.myntra.com/live-plants/india+gardening/india-gardening-pink--green-string-of-buttons-plant-with-pot/34561186/buy?gPromoCode=MyntraKotakCCJun2025"><img src="./../images/Buy succulents/Crassula perforata.jpg" alt="Crassula Perforata"></a>
+            <p>Crassula Perforata</p>
+          </div>
+        </div>
+        <div>
+          <div id="rounds">
+            <a href="https://www.flipkart.com/dollerplants-echinofossulocactus-multicostatus-cactus-plant/p/itm8f5e00695b6c9?pid=PSGHAFMGVHUQWCUH&lid=LSTPSGHAFMGVHUQWCUHQJUR09&marketplace=FLIPKART&cmpid=content_plant-sapling_8965229628_gmc"><img src="./../images/Buy succulents/Schlumbergera.jpg" alt="Schlumbergera"></a>
+            <p>Schlumbergera</p>
+          </div>
+          <div id="rounds">
+            <a href="https://www.amazon.in/Mphmi-Plant-Nursery-Echinopsis-species/dp/B0C4H2Z6P5/ref=sr_1_8?crid=2JA2SPVC18PA6&dib=eyJ2IjoiMSJ9.G-WkHVB85Gg7Wcj7qkTddQYCjNsZKoXxjpIHEjMRmayvOcqAjUPUECDhXvbSOekYdlZiwEDj7Xu_YTNUEY6RT2TtrnEIopynz1qsHRYTUMMFe7ZDx--lFCZPaLYEhL-Z347MxVX0AwhiXr5dfVIZcCmOomhPSw-k4ARIPdroLW2SfAu_ElGVGxfKaJrPiTfgMpK4-TL2uOIaL3op7VL0uT6YDU31_yQthVVM_XXncJQxYhta9_jRuMg3wOvo90QIkRBkglEdJVuLLsdrYVJRZUTfm8ubjllg-Vm3EmMie00.qngiLczky28JoWlyg_CqGdS7gKPBnS0O1D-aP5-CDFg&dib_tag=se&keywords=Echinopsis+live+plant&qid=1752430072&sprefix=echinopsis+live+plant%2Caps%2C312&sr=8-8"><img src="./../images/Buy succulents/Echinopsis.jpg" alt="Echinopsis"></a>
+            <p>Echinopsis</p>
+          </div>
+        </div>
+        <div>
+          <div id="rounds">
+            <a href="https://www.myntra.com/live-plants/india+gardening/india-gardening-opuntia-bunny-ear-cactus-live-plant/34391774/buy?gPromoCode=MyntraKotakCCJun2025"><img src="./../images/Buy succulents/Opuntia microdasys.jpg" alt="Opuntia Microdasys"></a>
+            <p>Opuntia Microdasys</p>
+          </div>
+          <div id="rounds">
+            <a href="https://www.flipkart.com/tillage-ball-cactus/p/itmde4a6d44465c3?pid=PSGGKBFBGDHZUXV9&lid=LSTPSGGKBFBGDHZUXV9KZBQZ4&marketplace=FLIPKART&cmpid=content_plant-sapling_8965229628_gmc"><img src="./../images/Buy succulents/Ball Cactus.jpg" alt="Parodia"></a>
+            <p>Parodia</p>
+          </div>
+          <div id="rounds">
+            <a href="https://www.flipkart.com/lifeshowme-bishops-cap-cactus-plant/p/itmbb23957b13030?pid=PSGHDR4YE8HVXZQP&lid=LSTPSGHDR4YE8HVXZQPSRBH8C&marketplace=FLIPKART&cmpid=content_plant-sapling_8965229628_gmc"><img src="./../images/Buy succulents/Astrophytum myriostigma.jpg" alt="Astrophytum Myriostigma"></a>
+            <p>Astrophytum Myriostigma</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>

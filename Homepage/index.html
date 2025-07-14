@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Indoor Plants</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+   <div class="navbar" id="navbar">
+    <div class="nav-title" style="color:#fff; font-family:'Great Vibes', cursive; font-size: 24px;">Indoor Plants</div>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#details">Details</a>
+      <a href="#care">Care</a>
+      <a href="#explore">Explore</a>
+    </div>
+    <a class="icon" onclick="toggleNavbar()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <section id="home">
+      <img class="indoor" src="./../images/IndoorPlants.jpg" alt="Indoor Plants">
+    </section>
+
+    <section id="details">
+      <h2 class="What">What are house plants?</h2>
+      <p>
+        Indoor plants are nature’s way of decorating your room with life.  
+        They don’t just sit in a pot — they breathe life into blank corners, purify the air, and bring calm to chaos.  
+        Whether it’s a tiny succulent on your desk or a leafy giant in your living room, these green buddies turn your house into a home.  
+        No garden? No problem. With indoor plants, you carry a piece of nature right into your everyday life — quietly growing, glowing, and making you feel good.
+      </p>
+    </section>
+
+    <section>
+      <h2>In present generations their role</h2>
+      <p>
+        The houseplant craze made a huge comeback in the late 2010s — and this time, it went viral.  
+        Thanks to Instagram and the rise of the “#Plantstagram” community, plants once seen in our grandparents’ homes became the new trendsetters.  
+        Then came the COVID-19 lockdown in 2020 — and suddenly, everyone wanted a jungle indoors.  
+        With more time at home, people turned to plants for comfort, creativity, and connection.  
+        Favorites like Monstera deliciosa, fiddle-leaf figs, and other lush aroids became the stars of the decade — not just for their beauty, but for their unique leaves, bold shapes, and the calm they brought into our homes.  
+        It wasn’t just about flowers anymore — it was about living art.
+      </p>
+    </section>
+
+    <section>
+      <h2>Production</h2>
+      <p>
+        Where do houseplants come from?  
+        Some are carefully grown in greenhouses or nurseries, while others are taken directly from the wild — and that’s where the problem begins.  
+        Wild plant collection has become a serious threat to rare species, especially those with limited habitats.  
+        Beautiful but vulnerable plants like succulents, cacti, and carnivorous plants (including the famous Venus flytrap) are often at risk.  
+        Thankfully, many growers now turn to more sustainable methods — growing plants from seeds, using cuttings, or even advanced techniques like tissue culture to meet demand without harming nature.
+      </p>
+    </section>
+
+    <section id="care">
+      <h2>Care</h2>
+      <p>
+        Caring for houseplants is more than just watering — it's about creating a miniature ecosystem indoors.  
+        Unlike outdoor plants, houseplants depend on balanced moisture, the right lighting, quality potting mix, and good ventilation to thrive.  
+        Each species has its own needs, and those needs can shift depending on the pot size, room temperature, and even the position near a window.  
+        Most indoor plants feel at home in temperatures between 15°C and 25°C (60°F–80°F) — mimicking the tropical or desert habitats they originally come from.  
+        That’s why you’ll find succulents soaking in dry air, or tropical beauties enjoying the dim corners of your room.  
+        Some plants grow under forest canopies, making them naturally suited for low-light conditions.  
+        Healthy houseplants typically have upright stems and fresh, tidy leaves.  
+        The leaves themselves can adapt — plants in bright areas may develop “sun leaves” with fewer chloroplasts, while those in shade grow “shade leaves” rich in chloroplasts to capture more light.  
+        Lighting isn’t the only factor; humidity, air circulation, and potting soil also matter.  
+        A good potting mix — usually a blend of peat or coir with vermiculite or perlite — helps with drainage and air flow.  
+        But be careful: too much water can cause root rot, while too little dries them out.  
+        Finally, don’t forget the nutrients! Your green friends need nitrogen, phosphorus, and potassium, along with trace minerals like zinc, iron, and magnesium to stay strong, grow tall, and keep those leaves glowing.
+      </p>
+    </section>
+
+    <section id="about">
+      <h2>About This Website</h2>
+      <p>
+        Welcome to a space where nature meets simplicity. The <strong>Indoor Plants</strong> website is more than just a guide — it’s your go-to companion for turning any room into a calming, green retreat.
+      </p>
+
+      <ul>
+        <li><strong>Easy to understand:</strong> Clear and friendly explanations of what indoor plants are and why they matter.</li>
+        <li><strong>Trendy & modern:</strong> Insights into how plants became a lifestyle must-have, especially in today’s social media era.</li>
+        <li><strong>No green thumb needed:</strong> Simple care tips that help your plants thrive with minimal effort.</li>
+        <li><strong>Conscious choices:</strong> Learn about plant sourcing and how to choose sustainably and responsibly.</li>
+        <li><strong>Designed for you:</strong> Visually soothing, mobile-friendly, and beginner-focused content that inspires.</li>
+      </ul>
+
+      <p>
+        Every section is crafted to make you feel more connected to nature — even indoors. <br>
+        <strong>Come for the knowledge, stay for the calm.</strong>
+      </p>
+
+    </section>
+    <section><h2>Explore Indoor Plants</h2>
+    <div class="grid" id="explore">
+        <div class="grid-item"><a href="./../Snake Plant/snakeplant.html"><img src="./../images/1(2).jpg" alt="Snake Plant"></a></div>
+        <div class="grid-item"><a href="./../Aloe Vera/Aloe vera.html"><img src="./../images/2(2).jpg" alt="Aloe Vera"></a></div>
+        <div class="grid-item"><a href="./../Money Plant/Money Plant.html"><img src="./../images/3(2).jpg" alt="Money Plant"></a></div>
+        <div class="grid-item"><a href="./../Jade/Jade.html"><img src="./../images/4(2).jpg" alt="Jade Plant"></a></div>
+        <div class="grid-item"><a href="./../Rubber/Rubber.html"><img src="./../images/5(2).jpg" alt="Rubber Plant"></a></div>
+        <div class="grid-item"><a href="./../Bamboo/Bamboo.html"><img src="./../images/6(2).jpg" alt="Bamboo Plant"></a></div>
+        <div class="grid-item"><a href="./../Peace Lily/Peace lily.html"><img src="./../images/7(2).jpg" alt="Peace Lily"></a></div>
+        <div class="grid-item"><a href="./../Succulents/succulents.html"><img src="./../images/8(2).jpg" alt="Succulent Plant"></a></div>
+        <div class="grid-item"><a href="./../Spider Plant/Spider.html"><img src="./../images/9(2).jpg" alt="Spider Plant"></a></div>
+        <div class="grid-item"><a href="./../ZZ/ZZ.html"><img src="./../images/10(2).jpg" alt="ZZ Plant"></a></div>
+        <div class="grid-item"><a href="./../Areca palm/Areca.html"><img src="./../images/11(2).jpg" alt="Areca Palm"></a></div>
+        <div class="grid-item"><a href="./../English ivy/english ivy.html"><img src="./../images/12(2).jpg" alt="English Ivy"></a></div>
+        <div class="grid-item"><a href="./../Persian shield/Persian shield.html"><img src="./../images/13(2).jpg" alt="Persian Shield"></a></div>
+        <div class="grid-item"><a href="./../Chineses evergreen/Chineses evergreen.html"><img src="./../images/14(2).jpg" alt="Chinese Evergreen"></a></div>
+        <div class="grid-item"><a href="./../Orchid/Orchid.html"><img src="./../images/15(2).jpg" alt="Orchid"></a></div>
+        <div class="grid-item"><a href="./../Asparagus/Asparagus.html"><img src="./../images/16(2).jpg" alt="Asparagus"></a></div>
+        <div class="grid-item"><a href="./../Dracaena marginata/Dracaena.html"><img src="./../images/17(2).jpg" alt="Dracaena Marginata"></a></div>
+        <div class="grid-item"><a href="./../peperomia/peperomia.html"><img src="./../images/18(2).jpg" alt="Peperomia"></a></div>
+        <div class="grid-item"><a href="./../Laceleaf/Laceleaf.html"><img src="./../images/19(2).jpg" alt="Laceleaf"></a></div>
+        <div class="grid-item"><a href="./../Tradescantia/Tradescantia.html"><img src="./../images/20(2).jpg" alt="Tradescantia"></a></div>
+        <div class="grid-item"><a href="./../Oxalis triangularis/Oxalis triangularis.html"><img src="./../images/21(2).jpg" alt="Oxalis Triangularis"></a></div>
+    </div>
+    </section>
+  </div>
+
+</body>
+</html>

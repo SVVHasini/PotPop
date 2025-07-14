@@ -1,0 +1,219 @@
+/* Reset and prevent overflow */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fullscreen layout */
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Prevent global scrolling */
+  font-family: Arial, sans-serif;
+  background-image: url(./../images/Background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Main content container fills entire viewport */
+.container {
+  height: calc(100vh - 60px); /* Adjust height after navbar */
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* padding: 20px; */
+  box-sizing: border-box;
+}
+
+/* Navigation bar styles */
+.navbar {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  z-index: 1000;
+  background-color: #2d4739;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: #3d5d4d;
+  border-radius: 4px;
+}
+
+.navbar .icon {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.nav-links {
+  display: flex;
+  gap: 10px;
+}
+
+/* Responsive Navbar */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .navbar.responsive .nav-links {
+    display: flex;
+  }
+
+  .navbar .icon {
+    display: block;
+  }
+}
+
+/* Main Snake Plant Image */
+.spiderimg {
+  width: 100%;
+  max-width: 100vw;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  object-fit: contain;
+}
+
+/* Section Spacing */
+section {
+  margin-bottom: 40px;
+}
+
+/* Headings */
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Great Vibes', cursive;
+  color: #b2ffb2;
+  margin-bottom: 15px;
+  text-align: center;
+  text-shadow: 2px 2px 8px #c4fdc4;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: Arial Rounded MT, Arial, sans-serif;
+  color: #b2ffb2;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 18px;
+  color: #e6f5e6;
+  text-align: center;
+  padding: 0 10px;
+}
+
+/* About Section Layout */
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 20px;
+}
+
+/* Sticker Image */
+.Sticker {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  transform: rotate(-15deg);
+  box-shadow: 10px 10px 20px #000000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 1000px;
+}
+
+.Sticker:hover {
+  transform: rotate(-5deg) scale(1.05);
+  box-shadow: 15px 15px 25px #3d5d4d;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  max-width: 500px;
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+table, tr, td {
+  border: 3px solid rgb(17, 56, 2);
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #2d4739;
+  color: white;
+}
+
+/* Unordered Lists */
+ul {
+  list-style-type: disc;
+  padding-left: 40px;
+  color: #e6f5e6;
+  font-size: 18px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Buy Section Links */
+a {
+  color: #b2ffb2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.buycont{
+    background-color: #3d5d4d;
+    margin: 1%;
+    border-radius: 6px;
+}
+
+/* .Sticker {
+    max-width: 100%;     
+    height: auto;         
+    transform: rotate(-5deg); 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+    margin: 20px auto;   
+}
+
+.Sticker:hover {
+    transform: rotate(-5deg) scale(1.05);
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.6);
+} */
