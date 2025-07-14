@@ -19,9 +19,9 @@
       <a href="#about">About</a>
       <a href="#buy">Buy</a>
     </div>
-    <a class="icon" onclick="toggleNavbar()">
+    <button class="icon" onclick="toggleNavbar()" aria-label="Toggle Menu">
       <i class="fa fa-bars"></i>
-    </a>
+    </button>
   </div>
   <div class="container">
     <section id="about">
@@ -125,4 +125,25 @@
     </div>
 
   </div>
+  <script>
+    
+function toggleNavbar() {
+  const navLinks = document.getElementById("navLinks");
+  navLinks.classList.toggle("active");
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const navLinks = document.getElementById("navLinks");
+  const links = navLinks.querySelectorAll("a");
+
+  links.forEach(link => {
+    link.addEventListener("click", () => {
+      // Only collapse if in mobile view
+      if (window.innerWidth <= 768) {
+        navLinks.classList.remove("active");
+      }
+    });
+  });
+});
+  </script>
 </body>

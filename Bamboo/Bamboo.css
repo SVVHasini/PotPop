@@ -72,14 +72,26 @@ html, body {
     flex-direction: column;
     width: 100%;
     margin-top: 10px;
+    background-color: #2d4739;
+    padding: 10px;
+    border-radius: 8px;
   }
 
-  .navbar.responsive .nav-links {
+  .nav-links.active {
     display: flex;
   }
 
   .navbar .icon {
     display: block;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .nav-links a {
+    padding: 10px 0;
   }
 }
 
